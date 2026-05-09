@@ -1,0 +1,8 @@
+theia@theiadocker-daqnnahristo:/home/project/final_project$ pylint EmotionDetection/emotion_detection.py
+************* Module EmotionDetection.emotion_detection
+EmotionDetection/emotion_detection.py:12:0: C0301: Line too long (107/100) (line-too-long)
+EmotionDetection/emotion_detection.py:15:15: W3101: Missing timeout argument for method 'requests.post' can cause your program to hang indefinitely (missing-timeout)
+EmotionDetection/emotion_detection.py:6:0: C0411: standard import "json" should be placed before third party import "requests" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 8.33/10
